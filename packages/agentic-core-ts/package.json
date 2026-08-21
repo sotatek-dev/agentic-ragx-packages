@@ -1,0 +1,39 @@
+{
+  "name": "@sotatek-dev/agentic-core-sdk",
+  "version": "0.1.1",
+  "description": "Node/server TypeScript SDK for Agentic Core API-key-authenticated agent invocation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "agentic",
+    "rag",
+    "sdk",
+    "streaming"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sotatek-dev/agentic-ragx-packages.git",
+    "directory": "packages/agentic-core-ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "^5",
+    "vitest": "^4.1.4"
+  }
+}

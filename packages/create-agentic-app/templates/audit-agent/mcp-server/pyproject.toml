@@ -1,0 +1,25 @@
+[project]
+name = "audit-agent-mcp-server"
+version = "0.1.0"
+description = "FastMCP server exposing audit business tools to Agentic Core."
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.21",
+]
+
+[project.scripts]
+audit-mcp-server = "src.app:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

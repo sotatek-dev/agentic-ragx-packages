@@ -1,0 +1,31 @@
+name: Publish Packages to npm
+on:
+  push:
+    branches: [main]
+concurrency: Sync Packages to Public Repo-refs/heads/main
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org
+      - run: npm install
+      - run: npm run packages:build
+      - run: npm run packages:test
+      - uses: changesets/action@v1
+        with:
+          version: npm run changeset:version
+          publish: npm run changeset:publish
+          title: "chore: version packages"
+          commit: "chore: version packages"
+        env:
+          GITHUB_TOKEN: ghs_15368_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRobmQiLCJjdHgiOiJzUFZkMEZwa3BBdGNwYm91ZUxMTzF2T3JDcjJKVjRRaGZOYnM4NEpZUFNMX3hkYW44N2xMSGFRIiwiZXhwIjoxNzg3MzQ2NjEzLCJpYXQiOjE3ODczNDMwMTMsImlzcyI6ImdpdGh1YiIsImp0aSI6IjRjNTBmZWYyLTg3OGYtNGMzYi05OTQ4LWZmNzc0MjcyOTFkYyIsInZlciI6M30.GB4Cns9IVogUuKtT9guWXlqKzfdoxakByEJokn0DpJkoeZ9XC8A9dzuuKITjeoHh2HPrUfukPwk5MPxzlfTIuw
+          NPM_CONFIG_PROVENANCE: true

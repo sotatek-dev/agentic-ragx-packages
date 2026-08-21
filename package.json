@@ -1,0 +1,19 @@
+{
+  "name": "agentic-ragx",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "packages:build": "npm run build --workspaces --if-present",
+    "packages:test": "npm run test --workspaces --if-present",
+    "packages:lint": "npm run lint --workspaces --if-present",
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.0",
+    "jsdom": "^26.1.0"
+  }
+}

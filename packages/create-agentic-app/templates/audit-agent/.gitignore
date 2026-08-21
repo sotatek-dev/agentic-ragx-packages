@@ -1,0 +1,24 @@
+# Dependencies
+web/node_modules/
+mcp-server/__pycache__/
+mcp-server/src/__pycache__/
+mcp-server/src/tools/__pycache__/
+mcp-server/tests/__pycache__/
+mcp-server/.pytest_cache/
+mcp-server/*.egg-info/
+
+# Build
+web/.next/
+web/out/
+web/dist/
+
+# Environment
+.env
+web/.env
+
+# Database
+*.db
+
+# OS
+.DS_Store
+Thumbs.db

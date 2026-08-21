@@ -1,0 +1,36 @@
+{
+  "name": "@sotatek-dev/create-agentic-app",
+  "version": "0.1.1",
+  "description": "Scaffold an Agentic Core business app from templates",
+  "type": "module",
+  "bin": {
+    "create-agentic-app": "./bin/create-agentic-app.mjs"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.4"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "templates"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sotatek-dev/agentic-ragx-packages.git",
+    "directory": "packages/create-agentic-app"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

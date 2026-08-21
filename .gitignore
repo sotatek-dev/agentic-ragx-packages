@@ -1,0 +1,8 @@
+node_modules/
+packages/*/dist/
+packages/*/.tsbuildinfo
+templates/**/node_modules/
+templates/**/.next/
+templates/**/dist/
+templates/**/.vite/
+templates/**/tsconfig.tsbuildinfo
