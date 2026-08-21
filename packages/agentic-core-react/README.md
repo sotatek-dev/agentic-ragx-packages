@@ -1,11 +1,11 @@
-# @sotatek-dev/agentic-core-react
+# @sota-agentic-ragx/agentic-core-react
 
 React 19 chat, citation, and evidence preview components for Agentic Core.
 
 ## Install
 
 ```bash
-npm install @sotatek-dev/agentic-core-react
+npm install @sota-agentic-ragx/agentic-core-react
 ```
 
 ### Peer Dependencies
@@ -20,11 +20,11 @@ npm install react-pdf
 
 ## Tailwind 4 Setup
 
-This package uses Tailwind CSS 4 classes. Ensure your app has Tailwind configured with the `@sotatek-dev/agentic-core-react` source path in your `@source` directive:
+This package uses Tailwind CSS 4 classes. Ensure your app has Tailwind configured with the `@sota-agentic-ragx/agentic-core-react` source path in your `@source` directive:
 
 ```css
 @import "tailwindcss";
-@source "../node_modules/@sotatek-dev/agentic-core-react/dist";
+@source "../node_modules/@sota-agentic-ragx/agentic-core-react/dist";
 ```
 
 ## Security: Proxy-Safe Transport
@@ -44,7 +44,7 @@ import {
   CitationSheet,
   useAgenticChat,
   createHttpProxyTransport,
-} from "@sotatek-dev/agentic-core-react";
+} from "@sota-agentic-ragx/agentic-core-react";
 
 const transport = createHttpProxyTransport({
   endpoint: "/api/agentic-chat",
@@ -74,7 +74,7 @@ function Chat() {
 Implement `AgenticChatTransport` for non-HTTP transports:
 
 ```tsx
-import type { AgenticChatTransport } from "@sotatek-dev/agentic-core-react";
+import type { AgenticChatTransport } from "@sota-agentic-ragx/agentic-core-react";
 
 const customTransport: AgenticChatTransport = {
   async sendMessage(input) {
@@ -91,7 +91,7 @@ import {
   EvidencePreview,
   EvidenceBlockList,
   mapKbPreviewToEvidenceDocument,
-} from "@sotatek-dev/agentic-core-react";
+} from "@sota-agentic-ragx/agentic-core-react";
 
 // Convert your API response
 const doc = mapKbPreviewToEvidenceDocument(apiResponse);
@@ -138,7 +138,7 @@ For PDF overlay rendering:
 import {
   transformEvidencePolygon,
   transformCellBbox,
-} from "@sotatek-dev/agentic-core-react";
+} from "@sota-agentic-ragx/agentic-core-react";
 
 // Transform block coordinates from canonical PDF space to rendered pixels
 const polygon = transformEvidencePolygon(block.polygon, canonical, rendered);

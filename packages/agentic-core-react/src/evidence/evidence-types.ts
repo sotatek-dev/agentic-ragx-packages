@@ -1,4 +1,4 @@
-/** Evidence type contracts for @sotatek-dev/agentic-core-react. */
+/** Evidence type contracts for @sota-agentic-ragx/agentic-core-react. */
 
 /** A normalized evidence resource (image, attachment) referenced by a block. */
 export interface EvidenceResource {

@@ -6,7 +6,7 @@
  */
 
 import { NextRequest, NextResponse } from "next/server";
-import { AgenticHttpError } from "@sotatek-dev/agentic-core-sdk";
+import { AgenticHttpError } from "@sota-agentic-ragx/agentic-core-sdk";
 import { getCoreClient } from "@/server/core-client/client";
 import {
   createDocument,

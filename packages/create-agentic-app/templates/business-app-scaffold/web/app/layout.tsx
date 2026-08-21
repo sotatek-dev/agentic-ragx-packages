@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Business App Scaffold",
-  description: "Minimal business app using @sotatek-dev/agentic-core-react and @sotatek-dev/agentic-core-sdk",
+  description: "Minimal business app using @sota-agentic-ragx/agentic-core-react and @sota-agentic-ragx/agentic-core-sdk",
 };
 
 export default function RootLayout({

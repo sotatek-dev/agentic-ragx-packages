@@ -2,7 +2,7 @@
  * Core SDK client factory. Server-only — reads env vars at call time.
  */
 
-import { AgenticCoreClient } from "@sotatek-dev/agentic-core-sdk";
+import { AgenticCoreClient } from "@sota-agentic-ragx/agentic-core-sdk";
 
 let clientInstance: AgenticCoreClient | null = null;
 

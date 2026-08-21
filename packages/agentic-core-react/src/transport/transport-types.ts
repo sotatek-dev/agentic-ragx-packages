@@ -1,4 +1,4 @@
-/** Transport type contracts for @sotatek-dev/agentic-core-react. */
+/** Transport type contracts for @sota-agentic-ragx/agentic-core-react. */
 
 import type { AgenticUiStreamEvent } from "../chat/chat-types.js";
 

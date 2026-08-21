@@ -1,4 +1,4 @@
-/** @sotatek-dev/agentic-core-react — React 19 chat, citation, and evidence preview components. */
+/** @sota-agentic-ragx/agentic-core-react — React 19 chat, citation, and evidence preview components. */
 
 // Chat types
 export type {

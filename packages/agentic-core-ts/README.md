@@ -1,17 +1,17 @@
-# @sotatek-dev/agentic-core-sdk
+# @sota-agentic-ragx/agentic-core-sdk
 
 Node/server TypeScript SDK for the Agentic Core API. Invokes agents via `/v1/agents/{id}/invoke` with API-key authentication and typed async iterable streaming.
 
 ## Install
 
 ```bash
-npm install @sotatek-dev/agentic-core-sdk
+npm install @sota-agentic-ragx/agentic-core-sdk
 ```
 
 ## Usage
 
 ```typescript
-import { AgenticCoreClient } from "@sotatek-dev/agentic-core-sdk";
+import { AgenticCoreClient } from "@sota-agentic-ragx/agentic-core-sdk";
 
 const client = new AgenticCoreClient({
   baseUrl: "https://core.example.com",

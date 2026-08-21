@@ -1,5 +1,5 @@
 {
-  "name": "@sotatek-dev/agentic-core-react",
+  "name": "@sota-agentic-ragx/agentic-core-react",
   "version": "0.1.1",
   "description": "React 19 chat, citation, and evidence preview components for Agentic Core.",
   "main": "dist/index.js",

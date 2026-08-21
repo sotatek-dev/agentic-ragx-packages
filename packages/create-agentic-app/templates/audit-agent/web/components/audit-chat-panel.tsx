@@ -7,8 +7,8 @@ import {
   ChatMessageList,
   ChatInput,
   CitationSheet,
-} from "@sotatek-dev/agentic-core-react";
-import type { Citation } from "@sotatek-dev/agentic-core-react";
+} from "@sota-agentic-ragx/agentic-core-react";
+import type { Citation } from "@sota-agentic-ragx/agentic-core-react";
 
 const transport = createHttpProxyTransport({ endpoint: "/api/agentic-chat" });
 

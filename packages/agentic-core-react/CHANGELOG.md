@@ -1,4 +1,4 @@
-# @sotatek-dev/agentic-core-react
+# @sota-agentic-ragx/agentic-core-react
 
 ## 0.1.1
 

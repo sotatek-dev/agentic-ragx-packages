@@ -9,7 +9,7 @@ import type {
   EvidenceBlock,
 } from "../src/index.js";
 
-describe("@sotatek-dev/agentic-core-react public entry", () => {
+describe("@sota-agentic-ragx/agentic-core-react public entry", () => {
   it("exports all chat types", () => {
     const citation: Citation = { chunk_id: "c1", source: "doc.pdf" };
     const tool: ToolCallPart = {

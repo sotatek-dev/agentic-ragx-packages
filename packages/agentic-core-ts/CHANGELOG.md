@@ -1,4 +1,4 @@
-# @sotatek-dev/agentic-core-sdk
+# @sota-agentic-ragx/agentic-core-sdk
 
 ## 0.1.1
 

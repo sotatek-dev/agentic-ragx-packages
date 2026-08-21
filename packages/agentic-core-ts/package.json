@@ -1,5 +1,5 @@
 {
-  "name": "@sotatek-dev/agentic-core-sdk",
+  "name": "@sota-agentic-ragx/agentic-core-sdk",
   "version": "0.1.1",
   "description": "Node/server TypeScript SDK for Agentic Core API-key-authenticated agent invocation.",
   "main": "dist/index.js",

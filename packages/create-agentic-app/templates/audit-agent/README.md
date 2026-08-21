@@ -11,7 +11,7 @@ examples/audit-agent/
   scripts/      Registration and validation helpers
 ```
 
-**Boundary rule:** No imports from `backend/` or Core Python internals. The app talks to Core via `@sotatek-dev/agentic-core-sdk`, HTTP, and MCP only.
+**Boundary rule:** No imports from `backend/` or Core Python internals. The app talks to Core via `@sota-agentic-ragx/agentic-core-sdk`, HTTP, and MCP only.
 
 ## Quick Start
 

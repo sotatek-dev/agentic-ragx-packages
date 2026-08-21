@@ -1,4 +1,4 @@
-/** @sotatek-dev/agentic-core-sdk — Node/server TypeScript SDK for Agentic Core API. */
+/** @sota-agentic-ragx/agentic-core-sdk — Node/server TypeScript SDK for Agentic Core API. */
 
 export { AgenticCoreClient } from "./client.js";
 export type { AgenticCoreClientOptions } from "./client.js";

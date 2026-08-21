@@ -1,6 +1,6 @@
 ---
 name: agentic-ui-kit-integrate
-description: Integrate @sotatek-dev/agentic-core-react chat components into a Next.js app with Tailwind CSS 4 styling.
+description: Integrate @sota-agentic-ragx/agentic-core-react chat components into a Next.js app with Tailwind CSS 4 styling.
 ---
 
 # Agentic UI Kit Integrate
@@ -17,28 +17,28 @@ Before starting, read these files:
 
 ## Workflow
 
-1. **Install packages** — `npm install @sotatek-dev/agentic-core-react`
+1. **Install packages** — `npm install @sota-agentic-ragx/agentic-core-react`
 2. **Configure Next.js** — Add to `next.config.ts`:
    ```typescript
-   transpilePackages: ["@sotatek-dev/agentic-core-react"]
+   transpilePackages: ["@sota-agentic-ragx/agentic-core-react"]
    ```
 3. **Configure Tailwind** — Add to `globals.css`:
    ```css
-   @source "../node_modules/@sotatek-dev/agentic-core-react/dist";
+   @source "../node_modules/@sota-agentic-ragx/agentic-core-react/dist";
    ```
 4. **Create chat transport** — Use `createHttpProxyTransport`:
    ```typescript
-   import { createHttpProxyTransport } from "@sotatek-dev/agentic-core-react"
+   import { createHttpProxyTransport } from "@sota-agentic-ragx/agentic-core-react"
    const transport = createHttpProxyTransport({ endpoint: "/api/agentic-chat" })
    ```
 5. **Use chat hook** — Use `useAgenticChat`:
    ```typescript
-   import { useAgenticChat } from "@sotatek-dev/agentic-core-react"
+   import { useAgenticChat } from "@sota-agentic-ragx/agentic-core-react"
    const { messages, isStreaming, sendMessage } = useAgenticChat({ transport, agentId })
    ```
 6. **Render components** — Use `ChatMessageList`, `ChatInput`, `CitationSheet`:
    ```tsx
-   import { ChatMessageList, ChatInput, CitationSheet } from "@sotatek-dev/agentic-core-react"
+   import { ChatMessageList, ChatInput, CitationSheet } from "@sota-agentic-ragx/agentic-core-react"
    ```
 
 ## Security Constraints

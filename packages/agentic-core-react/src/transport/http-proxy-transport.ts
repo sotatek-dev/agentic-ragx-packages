@@ -1,5 +1,5 @@
 /**
- * Default HTTP proxy transport for @sotatek-dev/agentic-core-react.
+ * Default HTTP proxy transport for @sota-agentic-ragx/agentic-core-react.
  *
  * Calls an app-owned proxy endpoint (never the Core /v1 endpoint directly).
  * The proxy is responsible for authentication and API key injection.

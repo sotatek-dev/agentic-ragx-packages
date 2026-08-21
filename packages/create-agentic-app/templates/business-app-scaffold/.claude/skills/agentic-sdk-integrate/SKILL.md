@@ -1,6 +1,6 @@
 ---
 name: agentic-sdk-integrate
-description: Integrate @sotatek-dev/agentic-core-sdk into a Next.js app with server-side proxy for secure API key handling.
+description: Integrate @sota-agentic-ragx/agentic-core-sdk into a Next.js app with server-side proxy for secure API key handling.
 ---
 
 # Agentic SDK Integrate
@@ -17,10 +17,10 @@ Before starting, read these files:
 
 ## Workflow
 
-1. **Install package** — `npm install @sotatek-dev/agentic-core-sdk`
+1. **Install package** — `npm install @sota-agentic-ragx/agentic-core-sdk`
 2. **Create server client** — Create `server/core-client/client.ts`:
    ```typescript
-   import { AgenticCoreClient } from "@sotatek-dev/agentic-core-sdk"
+   import { AgenticCoreClient } from "@sota-agentic-ragx/agentic-core-sdk"
    
    export function getCoreClient(): AgenticCoreClient {
      const baseUrl = process.env.AGENTIC_CORE_BASE_URL!
@@ -44,7 +44,7 @@ Before starting, read these files:
 
 ## Security Constraints
 
-- **NEVER** import `@sotatek-dev/agentic-core-sdk` in client components
+- **NEVER** import `@sota-agentic-ragx/agentic-core-sdk` in client components
 - **NEVER** expose `AGENTIC_CORE_API_KEY` with `NEXT_PUBLIC_` prefix
 - All SDK calls must be in server-side code only (API routes, server components)
 - Use `AgenticHttpError` for error handling, never leak internal error details

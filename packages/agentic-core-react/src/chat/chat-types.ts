@@ -1,4 +1,4 @@
-/** Chat type contracts for @sotatek-dev/agentic-core-react. */
+/** Chat type contracts for @sota-agentic-ragx/agentic-core-react. */
 
 /** A single citation returned by the agent. */
 export interface Citation {

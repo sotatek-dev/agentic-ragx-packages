@@ -1,6 +1,6 @@
 # Business App Web
 
-Minimal Next.js chat app using `@sotatek-dev/agentic-core-react` and `@sotatek-dev/agentic-core-sdk`.
+Minimal Next.js chat app using `@sota-agentic-ragx/agentic-core-react` and `@sota-agentic-ragx/agentic-core-sdk`.
 
 ## Setup
 

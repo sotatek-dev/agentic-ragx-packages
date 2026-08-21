@@ -1,14 +1,14 @@
 # Business App Scaffold Template
 
-A reusable template proving a separate business app can integrate with Agentic Core over HTTP/MCP. Uses `@sotatek-dev/agentic-core-react` for chat UI, `@sotatek-dev/agentic-core-sdk` for server proxy, and Python FastMCP for business tools.
+A reusable template proving a separate business app can integrate with Agentic Core over HTTP/MCP. Uses `@sota-agentic-ragx/agentic-core-react` for chat UI, `@sota-agentic-ragx/agentic-core-sdk` for server proxy, and Python FastMCP for business tools.
 
 ## Architecture
 
 ```text
 Browser
-  → web UI (@sotatek-dev/agentic-core-react)
+  → web UI (@sota-agentic-ragx/agentic-core-react)
   → /api/agentic-chat/{agentId}/message (server proxy)
-  → @sotatek-dev/agentic-core-sdk
+  → @sota-agentic-ragx/agentic-core-sdk
   → Core /v1/agents/{id}/invoke
   → MCP provider discovers tools
   → mcp-server get_fields/get_blocks/get_rule_results

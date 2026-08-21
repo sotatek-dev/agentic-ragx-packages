@@ -1,6 +1,6 @@
 /**
  * Browser-safe SSE parser for the Agentic Core streaming API.
- * Adapted from @sotatek-dev/agentic-core-sdk sse-parser.ts — uses web ReadableStream only.
+ * Adapted from @sota-agentic-ragx/agentic-core-sdk sse-parser.ts — uses web ReadableStream only.
  */
 
 import type { AgenticUiStreamEvent } from "../chat/chat-types.js";

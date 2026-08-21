@@ -7,10 +7,10 @@
 
 import { describe, it, expect, vi, beforeEach } from "vitest";
 
-// Mock @sotatek-dev/agentic-core-sdk before importing the route
+// Mock @sota-agentic-ragx/agentic-core-sdk before importing the route
 const mockInvokeStream = vi.fn();
 
-vi.mock("@sotatek-dev/agentic-core-sdk", () => {
+vi.mock("@sota-agentic-ragx/agentic-core-sdk", () => {
   return {
     AgenticCoreClient: vi.fn().mockImplementation(() => ({
       agents: { invokeStream: mockInvokeStream },
@@ -151,7 +151,7 @@ describe("agentic-chat proxy", () => {
     process.env.AGENTIC_CORE_BASE_URL = "http://core:8000";
     process.env.AGENTIC_CORE_API_KEY = "test-key";
 
-    const { AgenticHttpError } = await import("@sotatek-dev/agentic-core-sdk");
+    const { AgenticHttpError } = await import("@sota-agentic-ragx/agentic-core-sdk");
     mockInvokeStream.mockRejectedValue(
       new (AgenticHttpError as any)(401, "Unauthorized"),
     );
@@ -173,7 +173,7 @@ describe("agentic-chat proxy", () => {
     process.env.AGENTIC_CORE_BASE_URL = "http://core:8000";
     process.env.AGENTIC_CORE_API_KEY = "test-key";
 
-    const { AgenticHttpError } = await import("@sotatek-dev/agentic-core-sdk");
+    const { AgenticHttpError } = await import("@sota-agentic-ragx/agentic-core-sdk");
     mockInvokeStream.mockRejectedValue(
       new (AgenticHttpError as any)(404, "Not found"),
     );
@@ -195,7 +195,7 @@ describe("agentic-chat proxy", () => {
     process.env.AGENTIC_CORE_BASE_URL = "http://core:8000";
     process.env.AGENTIC_CORE_API_KEY = "test-key";
 
-    const { AgenticHttpError } = await import("@sotatek-dev/agentic-core-sdk");
+    const { AgenticHttpError } = await import("@sota-agentic-ragx/agentic-core-sdk");
     mockInvokeStream.mockRejectedValue(
       new (AgenticHttpError as any)(429, "Rate limited"),
     );

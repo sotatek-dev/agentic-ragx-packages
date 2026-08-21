@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  transpilePackages: ["@sotatek-dev/agentic-core-react"],
+  transpilePackages: ["@sota-agentic-ragx/agentic-core-react"],
   serverExternalPackages: ["sql.js"],
 };
 

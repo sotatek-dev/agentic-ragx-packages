@@ -200,7 +200,7 @@ describe("business-app template skills", () => {
     const templateDir = TEMPLATE_SOURCES["business-app"]
     const sdkSkill = path.join(templateDir, ".agents", "skills", "agentic-sdk-integrate", "SKILL.md")
     const content = fs.readFileSync(sdkSkill, "utf-8")
-    expect(content).toContain("@sotatek-dev/agentic-core-sdk")
+    expect(content).toContain("@sota-agentic-ragx/agentic-core-sdk")
   })
 })
 

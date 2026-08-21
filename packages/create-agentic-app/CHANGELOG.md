@@ -1,4 +1,4 @@
-# @sotatek-dev/create-agentic-app
+# @sota-agentic-ragx/create-agentic-app
 
 ## 0.1.1
 
