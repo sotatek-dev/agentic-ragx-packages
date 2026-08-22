@@ -22,9 +22,9 @@
 
 | Package | Description | Version |
 |---------|-------------|---------|
-| [`@sota-agentic-ragx/agentic-core-sdk`](./agentic-core-ts) | Node/TypeScript SDK for server-side API integration | ![](https://img.shields.io/npm/v/@sota-agentic-ragx/agentic-core-sdk?style=flat-square) |
-| [`@sota-agentic-ragx/agentic-core-react`](./agentic-core-react) | React 19 chat UI components and evidence preview | ![](https://img.shields.io/npm/v/@sota-agentic-ragx/agentic-core-react?style=flat-square) |
-| [`@sota-agentic-ragx/create-agentic-app`](./create-agentic-app) | CLI scaffold for new business apps | ![](https://img.shields.io/npm/v/@sota-agentic-ragx/create-agentic-app?style=flat-square) |
+| [`@sota-agentic-ragx/agentic-core-sdk`](./packages/agentic-core-ts) | Node/TypeScript SDK for server-side API integration | ![](https://img.shields.io/npm/v/@sota-agentic-ragx/agentic-core-sdk?style=flat-square) |
+| [`@sota-agentic-ragx/agentic-core-react`](./packages/agentic-core-react) | React 19 chat UI components and evidence preview | ![](https://img.shields.io/npm/v/@sota-agentic-ragx/agentic-core-react?style=flat-square) |
+| [`@sota-agentic-ragx/create-agentic-app`](./packages/create-agentic-app) | CLI scaffold for new business apps | ![](https://img.shields.io/npm/v/@sota-agentic-ragx/create-agentic-app?style=flat-square) |
 
 ## Quick Start
 
