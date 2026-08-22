@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 @source "../../../../packages/agentic-core-react/src";
-@source "../node_modules/@sotatek-dev/agentic-core-react/dist";
+@source "../node_modules/@sota-agentic-ragx/agentic-core-react/dist";
 
 /*
- * CSS custom properties required by @sotatek-dev/agentic-core-react components.
+ * CSS custom properties required by @sota-agentic-ragx/agentic-core-react components.
  * These map Tailwind utility classes (bg-primary, text-muted-foreground, etc.)
  * to actual color values.
  */

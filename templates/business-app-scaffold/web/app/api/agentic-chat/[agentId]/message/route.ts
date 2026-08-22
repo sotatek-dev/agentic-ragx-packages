@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { AgenticCoreClient, AgenticHttpError } from "@sotatek-dev/agentic-core-sdk";
+import { AgenticCoreClient, AgenticHttpError } from "@sota-agentic-ragx/agentic-core-sdk";
 
 export async function POST(
   request: NextRequest,

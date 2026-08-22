@@ -10,8 +10,8 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@sotatek-dev/agentic-core-react": "file:../../../packages/agentic-core-react",
-    "@sotatek-dev/agentic-core-sdk": "file:../../../packages/agentic-core-ts",
+    "@sota-agentic-ragx/agentic-core-react": "file:../../../packages/agentic-core-react",
+    "@sota-agentic-ragx/agentic-core-sdk": "file:../../../packages/agentic-core-ts",
     "lucide-react": "^0.468.0",
     "next": "^15.3.0",
     "react": "^19.0.0",
